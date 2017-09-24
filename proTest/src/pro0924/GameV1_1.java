@@ -16,6 +16,7 @@ public class GameV1_1 {
 		int ranNum;
 		ranNum = (int) (Math.random() * 100 + 100);
 		System.out.println("«Î ‰»Î:");
+		@SuppressWarnings("resource")
 		Scanner a = new Scanner(System.in);
 		int inputNum = a.nextInt();
 		
