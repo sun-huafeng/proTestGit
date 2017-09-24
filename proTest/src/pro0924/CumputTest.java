@@ -62,7 +62,7 @@ public class CumputTest {
 				break;
 			}
 			
-			System.out.println("结果是:" + result);
+			System.out.println("结果是:" + String.valueOf(result).toString());
 			System.out.println("你还要继续么：1继续 0 退出 ");
 			
 			n = sc.nextInt();
