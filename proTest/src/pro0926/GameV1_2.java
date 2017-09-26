@@ -1,11 +1,13 @@
 package pro0926;
 
+import java.util.Scanner;
+
 public class GameV1_2 {
 
 	/*
 	 * 计算器  V_1_2
 	 * 实现开始运行程序在控制台打出欢迎页面，
-	 * 并且提示用户输入star命令开始计算器、输入end指令结束计算器，（运用计算器过程中 只要用户输入end 就会退出系统）
+	 * 并且提示用户输入start命令开始计算器、输入end指令结束计算器，（运用计算器过程中 只要用户输入end 就会退出系统）
 	 * 当用户输入其他指令的时候，控制台提示“指令有误，请重新输入。”
 	 * 开始游戏后提示用户输入第一个要运算的数字（数字可以是double类型）
 	 * 当用户输入第一个数字后判断如果不是数字，提示用户请输入数字，
@@ -15,7 +17,16 @@ public class GameV1_2 {
 	 */
 	public static void main(String[] args) {
 		// TODO 自動生成されたメソッド・スタブ
-
+		System.out.println("---------------欢迎进入计算机系统 ：------------- ");
+		System.out.println("请根据提示输入指令 ： start 开始运行计算机； end 退出计算机系统");
+		@SuppressWarnings("resource")
+		Scanner scanner = new Scanner(System.in);
+		String beginFlg = scanner.next();
+		if("start".equals(beginFlg)) {
+			System.out.println("-----------进入系统----------");
+		}else if("end".equals(beginFlg)){
+			System.out.println("-----------退出系统----------");
+		}
 	}
 
 }
