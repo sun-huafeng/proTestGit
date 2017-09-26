@@ -16,7 +16,7 @@ public class GameV1_2 {
 	 * 最后显示运算结果。然后提示用户是否继续运算，用户输入yes 后开始新的运算。除了yes以外的就会推出系统。
 	 */
 	public static void main(String[] args) {
-		// TODO 自動生成されたメソッド・スタブ
+		
 		System.out.println("---------------欢迎进入计算机系统 ：------------- ");
 		System.out.println("请根据提示输入指令 ： start 开始运行计算机； end 退出计算机系统");
 		@SuppressWarnings("resource")
