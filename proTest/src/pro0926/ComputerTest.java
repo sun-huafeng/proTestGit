@@ -15,7 +15,7 @@ public class ComputerTest {
 	 * 最后显示运算结果。然后提示用户是否继续运算，用户输入yes 后开始新的运算。除了yes以外的就会推出系统。
 	 */
 	public static void main(String[] args) {
-		Computer computer = new Computer();
+ 		Computer computer = new Computer();
 		computer.doComputer();
 		
 	}
