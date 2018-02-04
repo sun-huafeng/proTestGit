@@ -1,0 +1,6 @@
+<view bindtap="goPhoto" class="menuCon">
+  <View>图片</View>
+</view >
+<view bindtap="goVideo" class="menuCon">
+  <View>视频</View>
+</view >

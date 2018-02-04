@@ -1,0 +1,15 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/menu/menu",
+    "pages/photo/photo",
+    "pages/video/video",
+    "pages/logs/logs"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "忆家人、忆家人",
+    "navigationBarTextStyle":"black"
+  }
+}
